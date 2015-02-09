@@ -1,14 +1,13 @@
 language: python
 python: 
-  - 3.3
+  - 2.7
 install: 
-  - pip install -r requirements.txt --use-mirrors
   - git clone https://github.com/Gab-km/konira_portable konira
   - cd ./konira
   - python ./setup.py install
   - cd ..
 script:
-  - cd lib/test
+  - cd test
   - konira
 notifications:
   on_success: always
