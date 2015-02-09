@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/MiCHiLU/PyQCheck.svg?branch=v0.1.x)](https://travis-ci.org/MiCHiLU/PyQCheck)
+
 # What is PyQCheck?
 
 PyQCheck is a Quick Check-like testing framework based on the idea of Haskell Quick Check.
