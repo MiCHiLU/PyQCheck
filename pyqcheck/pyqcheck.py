@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-from arbitrary import Arbitrary, ArbitraryList
+from arbitrary import Arbitrary, ArbitraryList, ArbitraryAbstraction
 from pyqworker import PyQWorker
 from util import print_results
 
