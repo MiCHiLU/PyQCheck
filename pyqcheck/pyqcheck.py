@@ -1,7 +1,5 @@
 # -*- coding:utf-8 -*-
 
-from multiprocessing import Process
-
 from arbitrary import Arbitrary, ArbitraryList
 from pyqworker import PyQWorker
 from util import print_results
@@ -37,7 +35,7 @@ class PyQCheck(object):
     print('start test.')
 
     if self.process > 1:
-      from multiprocessing import Queue
+      from multiprocessing import Process, Queue
     else:
       from Queue import Queue
 
